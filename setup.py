@@ -7,15 +7,15 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_name",
+    name="ETLeasy",
     version="0.0.1",
-    author="my_name",
-    author_email="my_email",
-    description="My short description",
+    author="Lucas Mattias",
+    author_email="lucasmattias@outlook.com.br",
+    description="Pacote com ferramentas para facilitar o processo de ETL de dados",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    url="https://github.com/LucasMattias/ETLeasy",
     packages=find_packages(),
     install_requires=requirements,
-    python_requires='>=3.8',
+    python_requires='>=3.8'
 )
